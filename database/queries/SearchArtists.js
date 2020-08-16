@@ -33,7 +33,7 @@ const buildQuery = (criteria) => {
   if (criteria.age) {
     query.age = { $gte: criteria.age.min, $lte: criteria.age.max };
   }
-
+  // GitHub Test :)
   if (criteria.yearsActive) {
     query.yearsActive = {
       $gte: criteria.yearsActive.min,
